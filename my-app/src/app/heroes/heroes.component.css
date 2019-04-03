@@ -1,0 +1,11 @@
+.heroes {
+  list-style-type: none;
+}
+
+li,
+span {
+  font-family: Arial,
+    Helvetica,
+    sans-serif;
+  font-weight: lighter;
+}
