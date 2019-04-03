@@ -2,10 +2,36 @@
   list-style-type: none;
 }
 
+ul {
+  display: flex;
+  width: 75vw;
+  height: 50vw;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
 li,
 span {
   font-family: Arial,
     Helvetica,
     sans-serif;
   font-weight: lighter;
+}
+
+li {
+  border: 2px solid black;
+  background: #fafafa;
+  border-radius: 5px;
+  width: 135px;
+  height: 30px;
+  font-size: 1.25em;
+  margin: 1vw;
+}
+
+li:hover {
+  background: tomato;
+  color: whitesmoke;
+  cursor: pointer;
 }
